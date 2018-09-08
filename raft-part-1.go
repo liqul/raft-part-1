@@ -6,9 +6,8 @@ import (
 	"log"
 	"math"
 	"time"
-
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
+	"go.etcd.io/etcd/raft"
+	"go.etcd.io/etcd/raft/raftpb"
 	"golang.org/x/net/context"
 )
 
