@@ -6,6 +6,7 @@ import (
 	"log"
 	"math"
 	"time"
+
 	"go.etcd.io/etcd/raft"
 	"go.etcd.io/etcd/raft/raftpb"
 	"golang.org/x/net/context"
